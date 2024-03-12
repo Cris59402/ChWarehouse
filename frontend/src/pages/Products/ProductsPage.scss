@@ -1,0 +1,25 @@
+@import "../../mixin";
+.products {
+  @include main-style();
+
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 15px 2px black;
+    padding: 1.5rem;
+    margin-top: 25px;
+    border-radius: 12px;
+  }
+
+  table {
+    width: 100%;
+
+    td,
+    th {
+      border: 1.5px solid black;
+      border-radius: 2px;
+      text-align: center;
+    }
+  }
+}

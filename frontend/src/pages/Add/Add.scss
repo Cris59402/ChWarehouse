@@ -1,0 +1,5 @@
+@import "../../mixin";
+
+.add-product {
+  @include main-style();
+}
